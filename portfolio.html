@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+
+        <div class="background">
+        <div class="nav">
+            <a class="a" href="#" onclick = "home()">HOME</a>
+            <a class="b" href="#" onclick = "about()">ABOUT</a>
+            <a class="c" href="#" onclick = "gallery()">GALLERY</a>
+            <a class="d" href="#" onclick = "contact()">CONTACT</a>
+            
+        </div>
+        <div class="content">
+
+            <div class="HOME" id = "home">
+                <h1>I am Sparash</h1>
+                <h2>Astrophysicist</h2>
+            </div>
+            
+            <div class="ABOUT" id = "about">
+                <p>
+                        Cosmos: A Spacetime Odyssey is a 2014 American science documentary television series. The show is a follow-up to the 1980 television series Cosmos: A Personal Voyage, which was presented by Carl Sagan on the Public Broadcasting Service and is considered a milestone for scientific documentaries. This series was developed to bring back the foundation of science to network television at the height of other scientific-based television series and films. The show is presented by astrophysicist Neil deGrasse Tyson, who, as a young high school student, was inspired by Sagan. Among the executive producers are Seth MacFarlane, whose financial investment was instrumental in bringing the show to broadcast television, and Ann Druyan, a co-author and co-creator of the original television series and Sagan's wife.[3] The show is produced by Brannon Braga, and Alan Silvestri composed the backing score.<br>
+
+                        The series loosely follows the same thirteen-episode format and storytelling approach that the original Cosmos used, including elements such as the "Ship of the Imagination" and the "Cosmic Calendar", but features information updated since the 1980 series, along with extensive computer-generated graphics and animation footage augmenting the narration.<br>
+                        
+                        The series premiered on March 9, 2014,[5] simultaneously in the United States across ten 21st Century Fox networks. The remainder of the series aired on the Fox Network, with the National Geographic Channel rebroadcasting the episodes the next night with extra content.[6] The series has been rebroadcast internationally in dozens of other countries by local National Geographic and Fox stations.<br>
+                        
+                        The series concluded on June 8, 2014, with home media release of the entire series on June 10, 2014. Cosmos has been critically praised, winning several television broadcasting awards and a Peabody Award for educational content. On January 13, 2018, it was announced that another season titled Cosmos: Possible Worlds will air in 2019 on Fox and National Geographic channels.<br>
+                        
+                </p>
+            </div>
+
+            <div class="gallery" id = "gallery">
+                <div class="row">
+                    <div class="column">
+                      <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\2.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\3.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\4.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\5.jpeg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\6.jpg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\7.jpg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\8.jpg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\9.jpg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\10.jpg" style="width:100%">
+                      </div>
+                      <div class="column">
+                        <img src="C:\Users\Inspiron\Desktop\Full Stacks\Project-2\images\11.jpg" style="width:100%">
+                      </div>
+                  </div>
+                  
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script type="text/javascript">
+    document.getElementById("about").style.visibility = "hidden";
+    document.getElementById("gallery").style.visibility = "hidden";
+    document.getElementById("home").style.visibility = "visible";
+
+    function home()
+    {
+        document.getElementById("home").style.visibility = "visible";
+        document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("gallery").style.visibility = "hidden";
+        document.getElementById("contact").style.visibility = "hidden";
+    }
+
+    function about()
+    {
+        document.getElementById("about").style.visibility = "visible";
+        document.getElementById("home").style.visibility = "hidden";
+        document.getElementById("gallery").style.visibility = "hidden";
+        document.getElementById("contact").style.visibility = "hidden";
+    }
+
+    function gallery()
+    {
+        document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("home").style.visibility = "hidden";
+        document.getElementById("gallery").style.visibility = "visible";
+        document.getElementById("contact").style.visibility = "hidden";
+    }
+
+    function contact()
+    {
+        document.getElementById("about").style.visibility = "hidden";
+        document.getElementById("home").style.visibility = "hidden";
+        document.getElementById("gallery").style.visibility = "hidden";
+        document.getElementById("contact").style.visibility = "visible";
+    }
+       
+    </script>
+
+    </body>
+</html>
