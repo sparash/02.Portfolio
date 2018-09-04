@@ -47,20 +47,24 @@ a.active, .nav a:hover{
 }
 .a{
     width: 95%;
+    padding: 1.5em;
 }
 .b{
     width: 85%;
+    padding: 1.5em;
 }
 .c{
     width: 70%;
+    padding: 1.5em;
 }
 .d{
     width: 90%;
+    padding: 1.5em;
 }
 
 .content{
     position: absolute;
-    width: 930px;
+    width: 48%;
     min-height: 500px;
     height: auto;
     right: 0;
@@ -111,3 +115,8 @@ a.active, .nav a:hover{
     clear: both;
     display: table;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
