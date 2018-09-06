@@ -74,18 +74,18 @@ a.active, .nav a:hover{
 .HOME{
     position: absolute;
     right: 0;
-    bottom: 400px;
+    bottom: 30%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .HOME h1{
-    font-size: 95px;
+    font-size: 95%;
     padding-right: 90px;
     border-bottom: 1px solid white;
     text-transform: uppercase;
 }
 .HOME h3{
-    font-size: 28px;
+    font-size: 28%;
     padding: 5px 0;
     opacity: 0.6;
 }
